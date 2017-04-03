@@ -1,0 +1,22 @@
+.lien-he{
+  .contact-bar{
+    margin:0 15px;
+    margin-bottom:40px;
+  }
+  .tab-content{
+    text-align:left;
+
+  }
+
+}
+@media (max-width:768px){
+  .lien-he{
+    .contact-page{
+      ul{
+        li{
+          float:none;
+        }
+      }
+    }
+  }
+}

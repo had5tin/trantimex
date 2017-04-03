@@ -1,0 +1,91 @@
+#tin-tuc{
+  padding-bottom: 30px;
+  .item-1{
+    .tin{
+      margin-bottom:40px;
+      margin-top:20px;
+      .bg{
+        height: 302px;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size:cover!important;
+        color:white;
+        .mini-box{
+          padding-top: 80px;
+          h3{
+            font-weight: bold;
+            color:white;
+          }
+        }
+        button{
+          padding: 5px 5px;
+          margin-top:13px;
+          a{
+            color:white;
+          }
+        }
+      }
+    }
+    .tin-tratimex{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/tratimex2.jpg);
+
+      }
+    }
+    .tin-nganh{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/tin-trong-nganh.jpg);
+
+      }
+    }
+    .nang-dong{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/nang-dong.jpg);
+
+      }
+    }
+    .tin-cay{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/tin-cay.jpg);
+
+      }
+    }
+    .linh-hoat{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/linh-hoat.jpg);
+
+      }
+    }
+    .da-dang{
+      .bg{
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url(../images/da-dang-2.jpg);
+
+      }
+    }
+  }
+  .bg-other{
+    background-image:url(../wp-content/themes/tratimex/assets/images/pattern-1.jpg);
+  }
+  .item-other{
+    .featured-news{
+      h2{
+        margin-top: 44px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #434343 !important;
+      }
+      .desc{
+        margin-top: 20px;
+        color: #434343;
+        margin-bottom:30px;
+        p{
+          font-weight: 400;
+          color:#434343;
+        }
+      }
+    }
+  }
+}
+

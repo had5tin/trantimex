@@ -1,0 +1,24 @@
+// Fix slider in homepage
+
+.main-homepage .part-1.sliders .camera_wrap .camera_caption {
+  font-size: 48px;
+  text-transform: capitalize;
+  p {
+    padding: 20px 10px 25px;
+  }
+}
+
+// Fix title in product page
+.branch .item-1 .product-list .h3 {
+  font-size: 22px;
+
+}
+
+// Fix title in recuiment page
+.page-template-tuyen-dung {
+  .cover {
+    h2 {
+      font-size: 24px;
+    }
+  }
+}

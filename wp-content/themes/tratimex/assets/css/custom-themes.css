@@ -1,0 +1,218 @@
+body{
+    font-family: Arial;
+}
+
+header .main-navigation > ul >li {
+padding: 10px !important;
+margin-left: 76px;
+}
+
+header .main-navigation ul li .sub-menu {
+top: 45px !important;
+}
+
+header .main-navigation ul li .sub-menu li:hover
+{
+    background: none !important;
+}
+
+header .main-navigation ul li .sub-menu {
+    background: #f7f7f7 !important;
+    margin-left: 0 !important;
+}
+
+header .main-navigation ul li .sub-menu li a{
+    color: #888888 !important;
+}
+header .main-navigation ul li .sub-menu li a:hover{
+    color: #002265 !important;
+}
+header .main-navigation ul li a {
+    font-weight: normal !important;
+}
+
+header .main-navigation ul li .sub-menu li {
+    padding: 7px 10px !important;
+}
+#colophon{
+    background: #fff!important;
+    font-family: normal;
+    font-size: 16px;
+    color: #333;
+}
+#colophon nav li {
+    margin-left: 0;
+    padding-left: 0;
+}
+#colophon nav li:first-child {
+    margin-left: -55px;
+}
+#colophon nav li {
+    display: inline-block;
+    position: relative;
+
+}
+
+#colophon nav li a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #333;
+}
+#colophon nav, #colophon .float-l {
+    text-align: left !important;
+    width: 1130px;
+    margin: 0 auto;
+}
+#colophon nav li::before{
+    content: '';
+    border-left: 1px solid #333;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+#colophon nav li:first-child::before{
+    border-left:none;
+}
+#colophon nav li a:hover{
+    text-decoration: underline;
+}
+.part-5 {
+    margin-top: 50px;
+}
+
+footer {
+    padding-top: 20px !important;
+    padding-bottom: 0 !important;
+}
+.sidebar-left{
+    font-size: 16px;
+    color:#333;
+    margin-top: -20px;
+}
+.sidebar-left ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sidebar-left ul li a{
+    color:#333;
+}
+.sidebar-left .item-list .item.active {
+    background: #f2f2f2;
+    text-decoration: none;
+}
+.sidebar-left .item-list .item {
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.desc{
+    color: #333;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.search-form {
+     position: relative;
+}
+
+.search-form .search_submit {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding: 0;
+    outline: none;
+    outline-offset: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 0;
+    height: 0;
+    color: #333;
+    font: 400 14px/22px FontAwesome,sans-serif;
+}
+.search-form .search_input{
+    margin-left: -10px;
+}
+
+.main-homepage .part-2.services {
+    padding-top: 30px !important;
+    padding-bottom: 40px;
+}
+.main-homepage .part-2.services .item .content .title {
+    padding-bottom: 0 !important;
+    border: 1px solid rgb(0, 34, 101);
+    border-radius: 8px;
+    background: rgb(0, 34, 101);
+    color: #fff;
+}
+.main-homepage .part-2.services .item .content .excerpt{
+    margin-top:30px;
+    height: 60px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.text-overfollow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.part-3 > hr{
+    border-color: #df2132;
+    background-color: #df2132;
+    color: #df2132;
+}
+.main-homepage .part-3.news hr,.main-homepage .part-4.products hr {
+    border-color: #df2132 !important;
+    background-color: #df2132!important;
+    color: #df2132!important;
+}
+.main-homepage .part-3.news {
+     padding-bottom: 0!important;
+
+}
+header .logo .container .left .wrap img {
+    width: 70% !important;
+}
+header .logo .container .right {
+    padding-top: 0!important;
+}
+.main-homepage .part-5.customers #slider img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.main-homepage .part-3.news {
+    font-family: arial;
+}
+
+.main-homepage .part-4.products .item .content .title {
+    font-family: arial;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.main-homepage .part-4.products .item .content .btn-more {
+    margin-top: 20px;
+}
+
+
+/*=======================================*/
+#slider div.item {
+    height: 101px;
+}
+
+#slider div.item img {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+/*=======================================*/

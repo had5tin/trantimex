@@ -1,0 +1,49 @@
+footer {
+    background: #2c2c2c;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: "Play", sans-serif;
+    .site-info {
+        text-align: center;
+        img {
+            max-width: 240px;
+            border-radius: 8px;
+        }
+        .add {
+            margin-top: 29px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            color: #dddddd;
+        }
+        .email {
+            margin: 15px 0;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 14px;
+            color: #dddddd;
+            a {
+                color: #dddddd;
+                transition: 1s;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+        p {
+            max-width: 660px;
+            margin: 8px auto 14px;
+            color: #999999;
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+    .copyright {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        color: #dddddd;
+    }
+}
